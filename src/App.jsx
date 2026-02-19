@@ -1,4 +1,6 @@
 import { Header }  from "./components/Header"
+import { Footer } from "./components/Footer"
+import { Content } from "./components/Content"
 
 function App() {
 
@@ -6,6 +8,8 @@ function App() {
     <>
       <h1>React Theme Context</h1>
       <Header />
+      <Content />
+      <Footer />
     </>
   )
 }
